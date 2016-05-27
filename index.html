@@ -1,1 +1,79 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Галерея здоровья</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container m-t-1">
+      <div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4"><img src="img/logo.svg" alt="logo" class="img-fluid"></div>
+    </div>
+    <div class="container m-t-1">
+      <div class="col-sm-12 col-xs-12 col-md-4 col-md-offset-2">
+        <audio controls id="sound">
+          <source src="test.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+    <div class="container p-x-0">
+      <div class="row m-x-0">
+        <div class="col-md-4 col-xs-6 col-sm-6"><img src="img/kedrmaslob100.jpg" alt="Кедровое масло" class="img-fluid"></div>
+        <div class="col-md-8 col-xs-6 col-sm-6 m-x-0">
+          <div class="row">
+            <div class="lead main__text">Кедровое Масло</div>
+          </div>
+          <div class="row">
+            <div class="text-muted">100 мл</div>
+          </div>
+          <div class="row m-t-1">
+            <div class="main__text">Описание</div>
+          </div>
+          <div class="row">
+            <div class="desc__text">Масло кедровое «Сибирский кедр» -  уникальный продукт, обладающий высоким качеством, отобранный из свежих кедровых орешек, полученное путем холодного отжима. Используется широко в кулинарии, медицине, в области красоты и здоровья.Масло кедровое в бутылке из стекла, объёмом 100 мл. Для удобства потребителей на бутылке имеется книжечка с информацией о применение масла и его пользе.  Бутылка помещена в упаковку из картона, тем самым защищает бутылочку с кедровым маслом от света. Сохраняя полезные свойства на весь период хранения.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-x-0">
+      <div class="col-md-12 col-xs-12 col-sm-12 m-t-1 p-x-0">
+        <table class="table table-striped table-hover">
+          <thead class="thead-inverse">
+            <tr>
+              <th>Полезные элементы</th>
+              <th>Количество</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Протеины</th>
+              <td>20г</td>
+            </tr>
+            <tr>
+              <th scope="row">Белок</th>
+              <td>30г</td>
+            </tr>
+            <tr>
+              <th scope="row">Углеводы</th>
+              <td>70г</td>
+            </tr>
+            <tr>
+              <th scope="row">Белок</th>
+              <td>30г</td>
+            </tr>
+            <tr>
+              <th scope="row">Белок</th>
+              <td>30г</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="bower_components/jquery/dist/jquery.js">
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="app.js"></script>
+  </script>
+</html>

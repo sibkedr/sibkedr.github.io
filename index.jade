@@ -1,0 +1,57 @@
+doctype html
+html(lang="ru")
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Галерея здоровья
+    meta(charset="utf-8")
+    link(rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css")
+    link(rel="stylesheet" href="style.css" )
+      
+  body
+      .container.m-t-1
+        .col-sm-10.col-sm-offset-1.col-xs-10.col-xs-offset-1.col-md-4.col-md-offset-4
+          img(src="img/logo.svg", alt="logo", class="img-fluid")
+      .container.m-t-1
+        .col-sm-12.col-xs-12.col-md-4.col-md-offset-2
+          audio(controls)#sound
+            source(src="test.mp3", type="audio/mpeg")
+      .container.p-x-0
+        .row.m-x-0
+          .col-md-4.col-xs-6.col-sm-6
+            img(src="img/kedrmaslob100.jpg", alt="Кедровое масло" class="img-fluid")
+          .col-md-8.col-xs-6.col-sm-6.m-x-0
+            .row
+              .lead.main__text Кедровое Масло
+            .row
+              .text-muted 100 мл
+            .row.m-t-1
+              .main__text Описание
+            .row
+              .desc__text Масло кедровое «Сибирский кедр» -  уникальный продукт, обладающий высоким качеством, отобранный из свежих кедровых орешек, полученное путем холодного отжима. Используется широко в кулинарии, медицине, в области красоты и здоровья.Масло кедровое в бутылке из стекла, объёмом 100 мл. Для удобства потребителей на бутылке имеется книжечка с информацией о применение масла и его пользе.  Бутылка помещена в упаковку из картона, тем самым защищает бутылочку с кедровым маслом от света. Сохраняя полезные свойства на весь период хранения.
+      .row.m-x-0
+        .col-md-12.col-xs-12.col-sm-12.m-t-1.p-x-0
+          table.table.table-striped.table-hover
+            thead.thead-inverse
+              tr
+                th Полезные элементы
+                th Количество
+            tbody
+              tr
+                th(scope="row") Протеины
+                td 20г
+              tr
+                th(scope="row") Белок
+                td 30г
+              tr
+                th(scope="row") Углеводы
+                td 70г
+              tr
+                th(scope="row") Белок
+                td 30г
+              tr
+                th(scope="row") Белок
+                td 30г
+      
+    script(src="bower_components/jquery/dist/jquery.js")
+    script(src="bower_components/bootstrap/dist/js/bootstrap.js")
+    script(src="app.js")
